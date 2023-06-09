@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    --background:#D9CDF7;
+    --colorText: #271A45;
+
+}
+body{
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-content,.right-content{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+main{
+   display: flex;
+   align-items: center;
+   height: 100vh;
+}
+.icon-toggle{
+    text-align: right;
+    cursor: pointer;
+}
+.p1-sty{
+     font-family: 'Lato';
+     font-size: 1rem;
+     font-weight: 300;
+     color: var(--colorText);
+}
+.informations h1{
+    font-family: 'Crimson Pro';
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--colorText);
+    margin-top: 1.2rem;
+}
+
+.p2-sty{
+    font-size: 1.6rem;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: var(--colorText);
+    margin-top: 1.2rem;
+}
+
+.informations input[type='button']{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.2rem;
+    outline: none;
+    border: 0.5px solid var(--colorText);
+    border-radius: 99rem;
+    padding: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 2.8rem;
+}
