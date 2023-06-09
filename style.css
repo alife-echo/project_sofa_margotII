@@ -20,15 +20,14 @@ body{
     align-items: center;
 }
 .left-content,.right-content{
-    padding-left: 4rem;
-    padding-right: 4rem;
+   padding: 0rem 4rem 0rem 4rem;
 }
 main{
    display: flex;
    align-items: center;
    height: 100vh;
 }
-.icon-toggle{
+.icon{
     text-align: right;
     cursor: pointer;
 }
@@ -65,4 +64,16 @@ main{
     background-color: transparent;
     cursor: pointer;
     margin-top: 2.8rem;
+    transition: ease 400ms;
+}
+.informations input[type='button']:hover{
+     background-color: var(--colorText);
+     transition: ease 400ms;
+     color: white;
+}
+.toggle-img{
+    width: 44.9rem;
+}
+.toggle-icon{
+    transition: ease 300ms;
 }
